@@ -14,7 +14,12 @@
   max-width: 600px;
   position: relative;
   box-shadow: 1px 1px 18px rgb(132, 132, 132);
-  backdrop-filter: invert(80%);
+  background: rgba(11, 16, 12, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.7px);
+  -webkit-backdrop-filter: blur(9.7px);
+  border: 1px solid rgba(11, 16, 12, 0.5);
 }
 
 .quoteBox__author{
